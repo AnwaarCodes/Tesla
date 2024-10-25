@@ -4,6 +4,7 @@ import Home from './components/Home';
 // import ThreeDScene from './utils/move';
 import HomePage from './components/HomePage';
 import HomeDetails from './components/HomeDetails';
+import HomeLastPage from './components/HomeLastPage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       {/* <ThreeDScene /> */}
       <HomePage />
       <HomeDetails />
+      <HomeLastPage/>
     </div>
     </>
   );
