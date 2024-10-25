@@ -88,7 +88,7 @@ const Home = () => {
             {text}
           </h1>
         ))}
-        <p className={`text-lg md:text-sm lg:text-[16px] text-white max-w-xl drop-shadow-md mb-4 w-[70%] lg:leading-tight ${animationStage >= 3 ? 'animate-[slideInFromLeft_1s_ease-out_forwards]' : 'opacity-0'}`}>
+        <p className={`text-lg md:text-sm lg:text-[16px] text-white max-w-xl drop-shadow-md mb-4 mt-4 w-[70%] lg:leading-tight ${animationStage >= 3 ? 'animate-[slideInFromLeft_1s_ease-out_forwards]' : 'opacity-0'}`}>
           Unleash the power of generative AI to redefine creativity and innovation. Explore the limitless possibilities of technologies
         </p>
         <button className={`px-4 py-2 text-[10px] font-normal text-white bg-black rounded-full hover:bg-gray-950 border border-green-900 transition ${animationStage >= 4 ? 'animate-[slideInFromLeft_1s_ease-out_forwards]' : 'opacity-0'}`}>
