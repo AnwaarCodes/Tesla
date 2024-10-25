@@ -36,7 +36,8 @@ const Navbar = () => {
 
   return (
     <nav className={`flex justify-between items-center fixed left-0 z-[9999] p-4  lg:pl-24 lg:pr-11 text-white w-full h-20 bg-black bg-opacity-80 transition-all duration-500 ${navbarPosition}`}>
-      <h1 className={`text-2xl text-white font-bold transition-all duration-500 ${headingPosition}`}>TESLA X AI</h1>
+      <h1 className={`text-2xl font-bold tracking-wider text-white transition-all duration-500 ${headingPosition}`}>TESLA X AI</h1>
+
       <div className="relative">
         <button 
           className="flex items-center cursor-pointer rounded-full p-2 transition-all duration-300 hover:bg-gray-800"

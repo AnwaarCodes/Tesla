@@ -8,6 +8,12 @@
   padding: 0;
   box-sizing: border-box;
   /* outline: 1px solid red; */
+  scrollbar-width: none;  
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+*::-webkit-scrollbar {
+  display: none; 
 }
 body {
   height: 100vh;
@@ -17,6 +23,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {

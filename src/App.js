@@ -2,7 +2,8 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/Home';
 // import ThreeDScene from './utils/move';
-
+import HomePage from './components/HomePage';
+import HomeDetails from './components/HomeDetails';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Navbar />
       <Home />
       {/* <ThreeDScene /> */}
+      <HomePage />
+      <HomeDetails />
     </div>
     </>
   );
