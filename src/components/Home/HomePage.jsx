@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { FaRobot, FaCar, FaMicrochip, FaBolt } from 'react-icons/fa'
-import tesla from '../assets/tesla-f.jpg'
-import teslaline from '../assets/Tesla-lineup.png'
-import teslacyber from '../assets/cyberbackpack.jpg'
-import teslapower from '../assets/tesla-power.png'
+import tesla from '../../assets/tesla-f.jpg'
+import teslaline from '../../assets/Tesla-lineup.png'
+import teslacyber from '../../assets/cyberbackpack.jpg'
+import teslapower from '../../assets/tesla-power.png'
 
 const HomePage = () => {
   const [animationStage, setAnimationStage] = useState(0);

@@ -1,26 +1,24 @@
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import './App.css';
-import Home from './components/Home';
-// import ThreeDScene from './utils/move';
-import HomePage from './components/HomePage';
-import HomeDetails from './components/HomeDetails';
-import InnovationSection from './components/HomeInnovations';
-import HomeScrollerText from './components/HomeScrollerText';
-import HomeFooter from './components/HomeFooter';
+import Home from './components/Home/Home';
+import { Provider} from './components/Context/Context';
+import About from './components/About/About'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <>
+
+    <Provider>
     <div className="h-screen w-full bg-black">
       <Navbar />
-      <Home />
-      {/* <ThreeDScene /> */}
-      <HomeScrollerText/>
-      <HomePage />     
-      <HomeDetails />
-      <InnovationSection/>
-      <HomeFooter/>
+      <Routes>
+        <Route path="/" element={<Home />} /> 
+        <Route path="/about" element={<About />} />
+      </Routes>
     </div>
+    </Provider>
+
     </>
   );
 }

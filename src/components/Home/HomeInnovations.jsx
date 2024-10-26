@@ -1,9 +1,9 @@
 // Import required modules
 import React from 'react';
-import teslacarO from '../assets/tesla-carO.jpg'
-import teslacar1 from '../assets/bb.png'
-import teslacar2 from '../assets/humanoid-robot.png'
-import teslacar3 from '../assets/thisisengineering.jpg'
+import teslacarO from '../../assets/tesla-carO.jpg'
+import teslacar1 from '../../assets/bb.png'
+import teslacar2 from '../../assets/humanoid-robot.png'
+import teslacar3 from '../../assets/thisisengineering.jpg'
 import { motion } from "framer-motion";
 const InnovationSection = () => {
   return (

@@ -1,7 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react'
-import humanoid from '../assets/humanoid-robot.png'
-import gen3 from '../assets/gen-3.mp4'
+import humanoid from '../../assets/humanoid-robot.png'
+import gen3 from '../../assets/gen-3.mp4'
 import { FaRobot, FaBrain, FaLightbulb, FaCode } from 'react-icons/fa'
+import HomePage from './HomePage'
+import HomeDetails from './HomeDetails';
+import InnovationSection from './HomeInnovations';
+import HomeScrollerText from './HomeScrollerText';
+import HomeFooter from './HomeFooter';
 
 const Home = () => {
   const [count, setCount] = useState(0);
@@ -57,6 +62,7 @@ const Home = () => {
   };
   
   return (
+    <>
     <div className="relative h-screen w-full flex items-center justify-center">
       <div className='absolute inset-0 flex items-end justify-center overflow-hidden'>
         <img src={humanoid} alt="humanoid" className='w-[830px] h-[500px] object-cover' style={{ animation: 'moveAndRotateRobot 10s ease-in-out forwards' }} />
@@ -129,6 +135,12 @@ const Home = () => {
         </div>
       )}
     </div>
+     <HomeScrollerText/>
+     <HomePage />     
+     <HomeDetails />
+     <InnovationSection/>
+     <HomeFooter/>
+     </>
   )
 }
 
