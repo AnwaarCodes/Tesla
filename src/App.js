@@ -4,7 +4,9 @@ import Home from './components/Home';
 // import ThreeDScene from './utils/move';
 import HomePage from './components/HomePage';
 import HomeDetails from './components/HomeDetails';
-import HomeLastPage from './components/HomeLastPage';
+import InnovationSection from './components/HomeInnovations';
+import HomeScrollerText from './components/HomeScrollerText';
+import HomeFooter from './components/HomeFooter';
 
 function App() {
   return (
@@ -13,9 +15,11 @@ function App() {
       <Navbar />
       <Home />
       {/* <ThreeDScene /> */}
-      <HomePage />
+      <HomeScrollerText/>
+      <HomePage />     
       <HomeDetails />
-      <HomeLastPage/>
+      <InnovationSection/>
+      <HomeFooter/>
     </div>
     </>
   );
