@@ -51,7 +51,9 @@ const Navbar = () => {
           <ul className="absolute right-0 mt-2 w-48 py-2 bg-black rounded-md shadow-xl z-[10000]">
             <li><Link to="/" className="block px-4 py-2 text-sm text-white hover:bg-gray-800 transition-all duration-300 cursor-pointer">Home</Link></li>
             <li><Link to="/About" className="block px-4 py-2 text-sm text-white hover:bg-gray-800 transition-all duration-300 cursor-pointer">About</Link></li>
-            <li><Link to="#" className="block px-4 py-2 text-sm text-white hover:bg-gray-800 transition-all duration-300 cursor-pointer">Services</Link></li>
+            <li><Link to="/Robotics" className="block px-4 py-2 text-sm text-white hover:bg-gray-800 transition-all duration-300 cursor-pointer">Robotics & AI Integeration</Link></li>
+            <li><Link to="#" className="block px-4 py-2 text-sm text-white hover:bg-gray-800 transition-all duration-300 cursor-pointer">AI and Environmental Impact</Link></li>
+            <li><Link to="#" className="block px-4 py-2 text-sm text-white hover:bg-gray-800 transition-all duration-300 cursor-pointer">Tesla X AI Future Prospects</Link></li>
             <li><Link to="#" className="block px-4 py-2 text-sm text-white hover:bg-gray-800 transition-all duration-300 cursor-pointer">Contact</Link></li>
           </ul>
         )}
