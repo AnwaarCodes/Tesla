@@ -5,6 +5,7 @@ import { Provider} from './components/Context/Context';
 import About from './components/About/About'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Robotics from './components/Robotics/Robotics';
+import AIClimate from './components/AiEnv/AIClimate';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<Home />} /> 
         <Route path="/about" element={<About />} />
         <Route path="/robotics" element={<Robotics />} />
+        <Route path="/aiclimate" element={<AIClimate />} />
       </Routes>
     </div>
     </Provider>
